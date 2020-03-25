@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install tree 
+    yum: name=tree state=latest
+  - name: install tree
+    yum: name=httpd state=latest
+ 

@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+          - name: veriable for uninstalling
+            yum: name={{item}} state=absent
+            with_items:
+                   - tree
+                   - httpd

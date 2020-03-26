@@ -10,3 +10,6 @@ ansible playbooks
 
 03) veriable.yml:-
     practicing veriables
+
+04) ver-unistall.yml:-
+    uninstalling using veriable

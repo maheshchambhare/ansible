@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install using veriables
+    yum: name={{item}}  state=present
+    with_items:
+     - tree
+     - python3-pip
+

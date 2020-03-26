@@ -7,3 +7,6 @@ ansible playbooks
  
 02) uninstall.yml:-
     this playbook only for uninstalling the packages
+
+03) veriable.yml:-
+    practicing veriables
